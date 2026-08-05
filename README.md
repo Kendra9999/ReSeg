@@ -108,18 +108,18 @@ The synthetic data structure are as follows:
 We use WANDB to log the training process. Please log in your WANDB account and write your entity name in `ReSeg/configs/rep/rep.py` and `ReSeg/configs/seg/zs_seg_abd4.py`.
 
 #### Representation learning
-Please write your synthetic data directory path in `ReSeg/configs/rep/rep.py`.
+Write your synthetic data directory path in `ReSeg/configs/rep/rep.py`.
 
-Please run the following command to train the model:
+Run the following command to train the model:
 ```
 cd ReSeg/tools
 CUDA_VISIBLE_DEVICES=0 python train.py configs/rep/rep.py --auto-resume --no-validate
 ```
 
 #### Segmentation training
-Please write your synthetic data directory path in `ReSeg/configs/seg/zs_seg_abd4.py`.
+Write your synthetic data directory path and the pretrained checkpoint path in `ReSeg/configs/seg/zs_seg_abd4.py`.
 
-Please run the following command to train the model:
+Run the following command to train the model:
 ```
 cd ReSeg/tools
 CUDA_VISIBLE_DEVICES=0 python train_seg.py configs/seg/zs_seg_abd4.py --auto-resume --no-validate
