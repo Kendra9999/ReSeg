@@ -61,6 +61,7 @@ The synthetic data structure are as follows:
 
 #### Data for segmentation training
 1. Get templates
+
 Download and unzip the TotalSegmentator dataset [V1](https://zenodo.org/records/6802614) and [V2](https://zenodo.org/records/10047292).
 
 2. Generate pseudo-data
