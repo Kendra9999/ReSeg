@@ -105,7 +105,7 @@ The synthetic data structure are as follows:
 ```
 
 ### Training
-We use WANDB to log the training process. Please log in your WANDB account and write your entity name in `ReSeg/configs/rep/rep.py` and `ReSeg\configs\seg\zs_seg_abd4.py`.
+We use WANDB to log the training process. Please log in your WANDB account and write your entity name in `ReSeg/configs/rep/rep.py` and `ReSeg/configs/seg/zs_seg_abd4.py`.
 
 #### Representation learning
 Please write your synthetic data directory path in `ReSeg/configs/rep/rep.py`.
