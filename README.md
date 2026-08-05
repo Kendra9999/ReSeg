@@ -60,10 +60,10 @@ The synthetic data structure are as follows:
 ```
 
 #### Data for segmentation training
-##### Get templates
+1. Get templates
 Download and unzip the TotalSegmentator dataset [V1](https://zenodo.org/records/6802614) and [V2](https://zenodo.org/records/10047292).
 
-##### Generate pseudo-data
+2. Generate pseudo-data
 ```
 # combine labels
 python step0_preprocess_totalsegmentator.py --max_workers 8 \
