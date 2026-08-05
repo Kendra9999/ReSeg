@@ -1,0 +1,7 @@
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.26.4
+scipy==1.15.3
+SimpleITK==2.5.0
+nibabel==5.3.2
+monai==1.4.0 
